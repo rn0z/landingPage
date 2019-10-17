@@ -3,7 +3,7 @@ import React from 'react'
 class LoginForm extends React.Component {
 
     state = {
-        isValid: 
+        isValid: true
     }
 
     constructor() {
