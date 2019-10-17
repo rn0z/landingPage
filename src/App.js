@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './scss/index.scss'
+import './scss/App.scss'
+import Layout from './component/hoc/layout'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Layout/>
     </div>
   );
 }
